@@ -30,5 +30,6 @@ export interface IFormInput {
   export interface IProps extends ButtonHTMLAttributes<HTMLButtonElement>{
     className: string,
     children: ReactNode,
-    width?:"w-full"|"w-fit"
+    width?: "w-full" | "w-fit",
+    [key: string]: any;
 }

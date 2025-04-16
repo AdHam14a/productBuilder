@@ -22,7 +22,7 @@ const ProductCard = ({product}:IProps) => {
       </div>
       <div className="flex items-center justify-between">
         <span className="font-bold font-serif">500$</span>
-        <img src={product.category.imageURL} alt={product.category.name} className="rounded-full w-10 h-10 cursor-pointer object-cover"/>
+        <img src={product.category.imageURL} alt={product.category.name} className="rounded-full w-10 h-10 cursor-pointer object-contain"/>
       </div>
       <div className="flex justify-between mt-5 space-x-1">
         <Button className=" bg-green-800 " width="w-full">Edit</Button>
